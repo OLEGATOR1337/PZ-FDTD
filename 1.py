@@ -27,7 +27,6 @@ out = file.open("w")
 json.dump(res, out, indent=4)
 out.close()
 
-
 pylab.plot(x, y)
 pylab.grid()
 pylab.savefig("results/task1.png")
