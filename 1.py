@@ -11,7 +11,7 @@ x_min = -10
 x_max = 10
 dx = 0.01
 
-x = np.arange(x_min, x_max, dx)
+x = np.arange(x_min, x_max + dx, dx)
 y = f(x)
 
 res = {
